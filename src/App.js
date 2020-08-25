@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>country loaded : {countries.length}</h1>
+      <h1 style={{color: 'tomato'}}>Country Loaded : {countries.length}</h1>
       <div>
         <Cart cart={cart}></Cart>
       </div>

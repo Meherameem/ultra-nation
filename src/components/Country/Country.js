@@ -3,7 +3,7 @@ import React from 'react';
 const Country = (props) => {
     const {name,population, region ,flag} = props.country;
     const flagStyle = {height:'50px'};
-    const btnStyle = {marginBottom:'50px'};
+    const btnStyle = {marginBottom:'50px', border:'none'};
     const countryClicked = props.countryClicked;
     return (
         <div>
